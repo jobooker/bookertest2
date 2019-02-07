@@ -1,14 +1,14 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="C:\Users\jbooker\MATLAB\Projects\Booker Project\ToolboxPackagingConfiguration.prj" location="C:\Users\jbooker\MATLAB\Projects\Booker Project" name="ToolboxPackagingConfiguration" target="target.toolbox" target-name="Package Toolbox">
-    <param.appname>Booker Project</param.appname>
+  <configuration build-checksum="3315394852" file="C:\Users\jbooker\MATLAB\Projects\Booker Project\ToolboxPackagingConfiguration.prj" location="C:\Users\jbooker\MATLAB\Projects\Booker Project" name="ToolboxPackagingConfiguration" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Booker Toolbox</param.appname>
     <param.authnamewatermark />
     <param.email />
     <param.company />
     <param.summary />
-    <param.description />
+    <param.description>This is my toolbox.</param.description>
     <param.screenshot />
     <param.version>1.0</param.version>
-    <param.output>${PROJECT_ROOT}\Booker Project.mltbx</param.output>
+    <param.output>${PROJECT_ROOT}\Booker Toolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -39,7 +39,9 @@ _SimulinkProject/*
 resources/.Project/*
 resources/_Project/*
 **/*.prj
-Booker Project.mltbx</param.exclude.filters>
+**/.git
+Booker Project.mltbx
+Booker Toolbox.mltbx</param.exclude.filters>
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples />
     <param.demosxml />
@@ -71,7 +73,6 @@ Booker Project.mltbx</param.exclude.filters>
       <param.email />
       <param.company />
       <param.summary />
-      <param.description />
       <param.screenshot />
       <param.version />
       <param.output />
@@ -108,16 +109,14 @@ Booker Project.mltbx</param.exclude.filters>
       <file>${PROJECT_ROOT}</file>
     </fileset.rootdir>
     <fileset.rootfiles>
-      <file>${PROJECT_ROOT}\BookerProject.prj</file>
       <file>${PROJECT_ROOT}\MyLiveScript.mlx</file>
       <file>${PROJECT_ROOT}\resources</file>
-      <file>${PROJECT_ROOT}\ToolboxPackagingConfiguration.prj</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="Booker Project.mltbx" optional="false">C:\Users\jbooker\MATLAB\Projects\Booker Project\Booker Project.mltbx</file>
+      <file location="${PROJECT_ROOT}" name="Booker Toolbox.mltbx" optional="false">C:\Users\jbooker\MATLAB\Projects\Booker Project\Booker Toolbox.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
